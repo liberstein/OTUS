@@ -37,7 +37,7 @@ public class Lesson3 {
         driver.get("https://otus.ru");
         logger.info("Сайт открыт");
         String actual = driver.getTitle();
-        Assert.assertEquals("s", actual);
+        Assert.assertEquals("Онлайн‑курсы для профессионалов, дистанционное обучение современным профессиям", actual);
     }
 
 }
